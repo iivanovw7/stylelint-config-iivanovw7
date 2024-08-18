@@ -1,6 +1,6 @@
 # stylelint-config-iivanovw7
 
-Contains shareable [elsint](https://stylelint.io/user-guide/configure) configuration.
+Contains shareable [stylelint](https://stylelint.io/user-guide/configure) configuration.
 
 ---
 
