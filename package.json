@@ -1,0 +1,41 @@
+{
+    "name": "stylelint-config-iivanovw7",
+    "private": true,
+    "version": "1.0.1",
+    "description": "Contains personal Stylelint config",
+    "scripts": {
+        "build": "vite build",
+        "test:format": "prettier-eslint \"**/*.{js,ts,json,md,yml}\" --log-level error --write",
+        "test:js": "eslint \"**/*.js\"",
+        "test": "pnpm run /^test:/",
+        "prepare": "husky"
+    },
+    "engines": {
+        "node": "20.11.1"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@commitlint/cli": "19.4.0",
+        "@commitlint/config-conventional": "19.2.2",
+        "eslint": "8.56.0",
+        "eslint-define-config": "2.1.0",
+        "eslint-plugin-import": "2.29.1",
+        "eslint-plugin-jsdoc": "50.2.2",
+        "eslint-plugin-n": "16.4.0",
+        "eslint-plugin-perfectionist": "2.5.0",
+        "eslint-plugin-prefer-arrow": "1.2.3",
+        "eslint-plugin-prefer-let": "3.0.1",
+        "eslint-plugin-unicorn": "49.0.0",
+        "husky": "9.1.4",
+        "prettier": "3.1.1",
+        "prettier-eslint": "16.3.0",
+        "prettier-eslint-cli": "8.0.1",
+        "simple-git-hooks": "2.9.0",
+        "stylelint": "16.0.2",
+        "stylelint-config-recess-order": "4.4.0",
+        "stylelint-gamut": "1.3.4",
+        "stylelint-order": "6.0.4",
+        "stylelint-plugin-logical-css": "1.2.1",
+        "vite": "5.4.1"
+    }
+}
