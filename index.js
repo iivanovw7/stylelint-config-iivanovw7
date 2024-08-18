@@ -1,6 +1,6 @@
 export default {
     extends: ["stylelint-config-recess-order"],
-    plugins: ["stylelint-gamut", "stylelint-plugin-logical-css"],
+    plugins: ["stylelint-plugin-logical-css"],
     rules: {
         "alpha-value-notation": "percentage",
         "annotation-no-unknown": true,
@@ -134,7 +134,6 @@ export default {
         "unit-no-unknown": true,
         "value-keyword-case": "lower",
         "value-no-vendor-prefix": true,
-        "gamut/color-no-out-gamut-range": true,
         "plugin/use-logical-properties-and-values": true,
         "plugin/use-logical-units": true,
         "order/properties-alphabetical-order": null,

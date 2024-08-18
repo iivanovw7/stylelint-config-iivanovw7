@@ -11,7 +11,8 @@ npm install `git+{{gitUrl}}`
 ### Example
 
 ```bash
-pnpm add git+https://github.com/iivanovw7/stylelint-config-iivanovw7 --save-dev -E
+pnpm add --save-dev -E git+https://github.com/iivanovw7/stylelint-config-iivanovw7
+pnpm add --save-dev -E stylelint stylelint-config-recess-order stylelint-plugin-logical-css stylelint-order
 ```
 
 ---

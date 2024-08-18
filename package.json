@@ -5,14 +5,15 @@
     "description": "Contains personal Stylelint config",
     "scripts": {
         "build": "vite build",
-        "test:format": "prettier-eslint \"**/*.{js,ts,json,md,yml}\" --log-level error --write",
-        "test:js": "eslint \"**/*.js\"",
+        "test:format": "prettier-eslint \"**/*.{js,ts,json,md,yml,yaml}\" --log-level error --write",
+        "test:js": "eslint --cache --max-warnings 0 \"**/*.{js,ts}\" --fix",
         "test": "pnpm run /^test:/",
         "prepare": "husky"
     },
     "engines": {
         "node": "20.11.1"
     },
+    "main": "index.js",
     "type": "module",
     "devDependencies": {
         "@commitlint/cli": "19.4.0",
@@ -30,10 +31,8 @@
         "prettier": "3.1.1",
         "prettier-eslint": "16.3.0",
         "prettier-eslint-cli": "8.0.1",
-        "simple-git-hooks": "2.9.0",
         "stylelint": "16.0.2",
         "stylelint-config-recess-order": "4.4.0",
-        "stylelint-gamut": "1.3.4",
         "stylelint-order": "6.0.4",
         "stylelint-plugin-logical-css": "1.2.1",
         "vite": "5.4.1"
